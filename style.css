@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body {
+  background-image: url(./birthd2.jpg);
+  background-size: cover;
+  background-position: center 35%;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.big-text {
+  font-size: 60px;
+  font-weight: 30;
+  margin: 1rem 2rem;
+  /* text-align: center; */
+}
+
+.birthday-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown-el {
+  text-align: center;
+}
